@@ -1,0 +1,18 @@
+# Dependencias de Composer
+/vendor/
+
+# Archivos generados por Drupal
+/web/sites/*/files/
+
+# Configuración local de Drupal
+/web/sites/*/settings.php
+/web/sites/*/services.yml
+
+# Configuración local de DDEV
+/.ddev/config.local.yaml
+/.ddev/*.local.yaml
+/.ddev/.env.*
+
+# Archivos temporales
+*.log
+.DS_Store
