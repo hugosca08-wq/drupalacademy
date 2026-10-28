@@ -1,0 +1,12 @@
+uuid: 66bfed28-6813-43d2-b237-a4cfc0d1e24b
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: sL588ui1E_8-2c_UupwyYxcqX2OVyMFp3HTLbbFqvPc
+id: global
+label: Global
+tags:
+  canonical_url: '[current-page:url]'
+  description: 'Esta es una descripcion del metatag Global'
+  title: '[current-page:title] | [site:name]'

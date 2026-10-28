@@ -1,0 +1,29 @@
+uuid: f0c701da-8d1e-46cf-926e-ac73f3c2b709
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tipo_articulo
+    - node.type.article
+    - taxonomy.vocabulary.tipo_noticia
+id: node.article.field_tipo_articulo
+field_name: field_tipo_articulo
+entity_type: node
+bundle: article
+label: 'Tipo articulo'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      tipo_noticia: tipo_noticia
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: tags
+field_type: entity_reference

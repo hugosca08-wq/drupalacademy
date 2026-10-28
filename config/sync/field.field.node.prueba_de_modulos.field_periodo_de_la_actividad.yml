@@ -1,0 +1,21 @@
+uuid: 95a819cd-a467-4b88-ac2c-77f25bdbb68c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_periodo_de_la_actividad
+    - node.type.prueba_de_modulos
+  module:
+    - datetime_range
+id: node.prueba_de_modulos.field_periodo_de_la_actividad
+field_name: field_periodo_de_la_actividad
+entity_type: node
+bundle: prueba_de_modulos
+label: 'Periodo de la actividad'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: daterange

@@ -1,0 +1,27 @@
+uuid: 9606c290-2579-4499-b36d-227080afc322
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_archivo
+    - node.type.post_blog
+  module:
+    - file
+id: node.post_blog.field_archivo
+field_name: field_archivo
+entity_type: node
+bundle: post_blog
+label: Archivo
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: txt
+  max_filesize: ''
+  description_field: false
+field_type: file

@@ -1,0 +1,9 @@
+uuid: 71491d65-e4cf-4f54-8fd5-cdbae6a56de2
+langcode: en
+status: true
+dependencies: {  }
+name: 'Tipo de noticia'
+vid: tipo_noticia
+description: null
+weight: 0
+new_revision: false

@@ -1,0 +1,9 @@
+uuid: ce768a98-7080-49b1-804c-d4bef0510609
+langcode: en
+status: true
+dependencies: {  }
+name: Provincias
+vid: provincias
+description: null
+weight: 0
+new_revision: false

@@ -1,0 +1,21 @@
+uuid: 931bf6a9-113e-41df-b1d1-99ea5573b3d9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_telefono_contacto
+    - node.type.prueba_de_modulos
+  module:
+    - telephone
+id: node.prueba_de_modulos.field_telefono_contacto
+field_name: field_telefono_contacto
+entity_type: node
+bundle: prueba_de_modulos
+label: 'Telefono de contacto'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: telephone

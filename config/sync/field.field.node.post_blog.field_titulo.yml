@@ -1,0 +1,19 @@
+uuid: 0587e4cd-0db8-4339-a4cd-5b0539a003cc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_titulo
+    - node.type.post_blog
+id: node.post_blog.field_titulo
+field_name: field_titulo
+entity_type: node
+bundle: post_blog
+label: Titulo
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,18 @@
+uuid: 88ed8408-b816-47fc-b9f2-8bd17a67d6b5
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.oficina
+id: node.oficina.title
+field_name: title
+entity_type: node
+bundle: oficina
+label: 'Nombre de la Oficina'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,40 @@
+uuid: add1c93d-9bbf-43bd-8ff3-31f7e297104f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.prueba_de_modulos.field_periodo_de_la_actividad
+    - field.field.node.prueba_de_modulos.field_telefono_contacto
+    - node.type.prueba_de_modulos
+  module:
+    - datetime_range
+    - user
+id: node.prueba_de_modulos.default
+targetEntityType: node
+bundle: prueba_de_modulos
+mode: default
+content:
+  field_periodo_de_la_actividad:
+    type: daterange_default
+    label: above
+    settings:
+      timezone_override: ''
+      format_type: medium
+      from_to: both
+      separator: '-'
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_telefono_contacto:
+    type: basic_string
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

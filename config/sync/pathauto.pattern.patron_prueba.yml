@@ -1,0 +1,23 @@
+uuid: f6ed436e-e3dc-4583-8ee6-ec0d586c9276
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.prueba_de_modulos
+  module:
+    - node
+id: patron_prueba
+label: 'Patron de prueba '
+type: 'canonical_entities:node'
+pattern: '/articulos/[node:title]'
+selection_criteria:
+  3dbac253-841f-48bd-8aa6-cac620171c6d:
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: node
+    bundles:
+      prueba_de_modulos: prueba_de_modulos
+selection_logic: and
+weight: -5
+relationships: {  }

@@ -1,0 +1,24 @@
+uuid: 85ee09dc-5c9f-452a-bfe2-d6f06505d5f3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_descripcion
+    - node.type.oficina
+  module:
+    - text
+id: node.oficina.field_descripcion
+field_name: field_descripcion
+entity_type: node
+bundle: oficina
+label: Descripción
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

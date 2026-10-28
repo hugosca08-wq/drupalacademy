@@ -1,0 +1,29 @@
+uuid: 1f12ba24-0b8f-4b51-b66a-4fcf5458d9d1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_taxonomia
+    - node.type.recursos_didacticos
+    - taxonomy.vocabulary.recurso_didactico
+id: node.recursos_didacticos.field_taxonomia
+field_name: field_taxonomia
+entity_type: node
+bundle: recursos_didacticos
+label: Taxonomia
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      recurso_didactico: recurso_didactico
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: categoria_post
+field_type: entity_reference
