@@ -1,13 +1,13 @@
 login:
-  authenticated:
-    redirect_url: /user
+  administrator:
+    redirect_url: /bienvenidaAdmin
     weight: '-10'
   content_editor:
-    redirect_url: ''
-    weight: '-10'
-  administrator:
-    redirect_url: ''
-    weight: '-10'
+    redirect_url: /bienvenidaEditor
+    weight: '-9'
+  authenticated:
+    redirect_url: /bienvenidaUsuario
+    weight: '-8'
 logout:
   authenticated:
     redirect_url: ''

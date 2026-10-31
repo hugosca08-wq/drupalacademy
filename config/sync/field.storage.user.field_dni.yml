@@ -1,0 +1,21 @@
+uuid: 06e13ec1-6855-421c-935f-5b3bcc2c2176
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user.field_dni
+field_name: field_dni
+entity_type: user
+type: string
+settings:
+  max_length: 255
+  case_sensitive: false
+  is_ascii: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
